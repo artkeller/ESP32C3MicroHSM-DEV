@@ -2,8 +2,7 @@
 
 ## Übersicht
 
-Dieses Python-Skript dient zur **Initialisierung** und **Provisionierung** eines  
-ESP32-C3 HSM-Devices über die serielle Schnittstelle.  
+Dieses Python-Skript dient zur **Initialisierung** und **Provisionierung** eines ESP32-C3 HSM-Devices über die serielle Schnittstelle.  
 Es ermöglicht die sichere Verwaltung von Authentifizierungs-Schlüsseln und Tokens zwischen PC und ESP32-C3.  
 
 ---

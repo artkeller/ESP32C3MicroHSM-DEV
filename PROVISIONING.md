@@ -83,4 +83,4 @@ Es übernimmt keine Garantie für Sicherheit oder Eignung für produktive Umgebu
 
 ---
 
-* Teil des ESP32-C3 HSM-Demoprojekts für serielle Provisionierung.*
+*Teil des ESP32-C3 HSM-Demoprojekts für serielle Provisionierung.*

@@ -80,3 +80,7 @@ pip install pyserial cryptography
 
 Dieses Tool ist für Test- und Entwicklungszwecke gedacht.
 Es übernimmt keine Garantie für Sicherheit oder Eignung für produktive Umgebungen.
+
+---
+
+Teil des ESP32-C3 HSM-Demoprojekts für serielle Provisionierung.

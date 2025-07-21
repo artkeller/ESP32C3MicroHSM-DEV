@@ -48,3 +48,35 @@ Es ermöglicht die sichere Verwaltung von Authentifizierungs-Schlüsseln und Tok
    
 
 
+## Wichtige Marker & Kommunikation
+
+| Marker	      | Funktion     |
+| :------------ | :----------- |
+| MAK_REQ:	    | MAK setzen   |
+| MAK_RESP:	    | Antwort auf MAK-Setzen |
+| AUTH_TOKEN_SET_REQ:	|Token setzen |
+| AUTH_TOKEN_SET_RESP:	|Antwort auf Token-Setzen|
+| NVS_SUCCESS	|Erfolg|
+| NVS_FAILED	|Fehler|
+| :END	|Datenende|
+
+## Abhängigkeiten
+
+    pyserial
+
+    cryptography (Python-Bibliothek)
+
+Installierbar via:
+
+pip install pyserial cryptography
+
+## Hinweise
+
+    MAK muss vor dem Setzen von Tokens gesetzt sein
+    Das Skript führt keine sichere Schlüsselverteilung durch – für den produktiven Einsatz sind Erweiterungen nötig
+    Token und MAK werden lokal gespeichert – Zugriffsschutz beachten
+
+## Lizenz & Haftungsausschluss
+
+Dieses Tool ist für Test- und Entwicklungszwecke gedacht.
+Es übernimmt keine Garantie für Sicherheit oder Eignung für produktive Umgebungen.
